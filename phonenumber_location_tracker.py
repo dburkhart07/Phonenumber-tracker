@@ -1,8 +1,6 @@
 import phonenumbers
 from phonenumbers import carrier,geocoder,timezone
 
-Key = "6d6f969fd9024ac8afde957f0c86a5ba"
-
 number="+19999999999"
 parsed_num = phonenumbers.parse(number)
 number_location = geocoder.description_for_number(parsed_num,"en")
